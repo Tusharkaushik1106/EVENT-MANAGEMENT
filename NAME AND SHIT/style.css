@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://i.redd.it/1zvcieh9gc731.jpg)
+}
+@font-face {
+    font-family: lolo;
+    src: url(./assets/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+*{
+    font-family: lolo;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #C4BDB3;
+}
+
+h1, h2 {
+    color: #1C1B19;
+}
+
+h2 {
+    font-size: 20px;    
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #84714c;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.input-box:hover{
+    border: 1px solid #84714c;
+    scale: 1.1;
+    transition:  0.5s;
+
+}
+.input-box:focus {
+    border-color:#84714c ;
+    box-shadow: 0 0 11px #ffc412;
+}
+
+.duration-input {
+    width: 50%;
+}
+
+.date-input {
+    width: 33%;
+}
+
+.submit-button {
+    background-color: #B43B12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ffc107;
+    color: #f57c00;
+}
+.in-middle{
+    position: relative;
+    font-size: 24px;
+    color: white;
+}
+.mc{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 767px) {
+    .duration-input, .date-input {
+        width: 100%;
+    }
+}
